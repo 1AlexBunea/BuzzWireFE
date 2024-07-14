@@ -2,7 +2,7 @@
 
 ## 📰 About BuzzWire
 
-BuzzWire is a dynamic news aggregation website that brings personalized and up-to-date news to your fingertips. Built with React TypeScript for the frontend and communicating with a robust backend, BuzzWire aims to keep you informed on topics that matter most to you.
+BuzzWire is a dynamic news aggregation website that brings personalized and up-to-date news to your fingertips. Built with React TypeScript for the frontend and communicating with a Django backend, BuzzWire aims to keep you informed on topics that matter most to you.
 
 ## 🚀 Features
 
