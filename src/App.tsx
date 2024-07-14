@@ -22,7 +22,7 @@ function App() {
   const [locArticles, setLocalArticles] = useState<Article[]>([]);
   const [city, setCity] = useState('');
   const [isLoading, setLoading] = useState(false)
-  const server_url = "http://127.0.0.1:8000"
+  const server_url = "https://buzzwirebe.onrender.com"
   const BASE_URL = server_url + '/api';
 
   const handleUserSearch = () => {
@@ -130,8 +130,10 @@ function App() {
 
 
   useEffect(() => {
+    setError(false)
     if (page == 1 || page == 2) {
       handleUserSearch();
+      console.log(locArticles)
     }
   }, [page]);
 
@@ -197,8 +199,12 @@ function App() {
                 </div>
               </div>
               : 
-              <div>
-                An error has occurred when querying API. The API is likely down
+              <div style={{display:'flex', alignItems:'center', justifyContent:'center'}}>
+                <h1>
+                An error has occurred when querying the backend. **NOTE** The backend is being hosted using Render's free service. 
+                It is likely that since it is hosted in a serverless environment, there is a spin-up time after prolounged inactivity. 
+                Spin up time is uncertain, but Render's website says around ~50 seconds. 
+                </h1>
               </div> 
             )
             ))}
