@@ -7,7 +7,7 @@
   }
   
   .gallery-item {
-    background: linear-gradient(to top, rgba(70, 70, 70, 0.5), rgba(255, 255, 0, 0));
+    background: linear-gradient(to top, rgba(70, 70, 70, 0.5), rgba(52, 231, 255, 0));
     border: 1px solid black;
     border-radius: 5px;
     overflow: hidden;
@@ -55,7 +55,7 @@
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    background: linear-gradient(to top,  rgba(0, 0, 0, 0.8), rgb(250, 140, 67, 0.7));
+    background: linear-gradient(to top,  rgba(0, 0, 0, 0.8), rgba(20, 139, 250, 0.5));
     opacity: 0;
     transition: opacity 0.3s;
     color: white;
