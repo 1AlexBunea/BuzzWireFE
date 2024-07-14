@@ -2,7 +2,7 @@
 
 This repository is the source code for my BuzzWire News website.
 
-Currently, two official plugins are available:
+Utilizes two APIs:
 
 - BuzzWire uses the [NewsAPI](https://newsapi.org/) for obtaining relevant news articles
 - BuzzWire uses a [ipapi API](https://ipapi.co) to get the user's city and find local news
