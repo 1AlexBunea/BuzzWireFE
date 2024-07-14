@@ -38,14 +38,4 @@ BuzzWire automatically detects your location and provides news specific to your 
 
 For detailed setup instructions, please refer to the documentation in the repository.
 
-## 🔒 Privacy
-
-We value your privacy. BuzzWire uses your IP address to provide location-based news and does not store this information..
-
-## 🙏 Acknowledgements
-
-- News API providers for enabling access to diverse news sources
-- Our dedicated team of developers and designers
-- Our users for their continued support and feedback
-
 Stay informed with BuzzWire - Your Personalized News Hub!
