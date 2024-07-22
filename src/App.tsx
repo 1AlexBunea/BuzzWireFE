@@ -104,6 +104,7 @@ function App() {
     if (page == 2) {
       const header = city + ' news'
       const url = BASE_URL + "/" + encodeURIComponent(header)
+      setLoading(true);
       fetch(url, {})
       .then((response) => {
         if (!response.ok) {
